@@ -1,0 +1,28 @@
+{
+  "name": "hotkode",
+  "version": "0.0.1",
+  "description": "Hot reload for server and client.",
+  "main": "hotkode.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterakos/hotkode.git"
+  },
+  "keywords": [
+    "hot reload",
+    "live reload",
+    "watch files",
+  ],
+  "author": "Kostas Tsalikidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masterakos/hotkode/issues"
+  },
+  "homepage": "https://github.com/masterakos/hotkode#readme",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "sockjs": "^0.3.17"
+  }
+}
