@@ -22,13 +22,6 @@ var Hotkode = function(args) {
   
   if (typeof args.client == 'object') {
     clientWatcher = new ClientWatcher(args.client);
-  } else if (typeof args.client == 'string') {
-    new ClientWatcher({
-      file: args.client,
-      watch: [
-        __dirname + '/' + args.client
-      ]
-    });
   }
 };
 
